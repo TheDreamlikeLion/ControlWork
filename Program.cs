@@ -1,13 +1,14 @@
 ﻿string [] givenArray1 = new string[4] {"Hello", "2", "world", ":-)"};
 string [] givenArray2 = new string[4] {"1234", "1567", "-2", "computer science"};
 string [] givenArray3 = new string[3] {"Russia", "Denmark", "Kazan"};
+int filterValue = 3;
 
 string [] ArrayFilter(string [] strings)
 {
   int count = 0;  
   for (int i = 0; i<strings.Length; i++)
   {
-    if(strings[i].Length <=3)
+    if(strings[i].Length <=filterValue)
     count++;
   }
   string [] result = new string [count];
