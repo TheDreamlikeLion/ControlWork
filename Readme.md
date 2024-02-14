@@ -26,3 +26,6 @@
 4. Выводим результат.
 
 Отдельно заданы метод вывода массива в строку (PrintArray) и метод вывода заданного и полученного массивов в необходимом формате (RunFilter).
+
+## Блок-схема основного метода ArrayFilter:
+![Блок-схема основного метода ArrayFilter](https://github.com/TheDreamlikeLion/ControlWork/blob/master/Algorithm.png)
